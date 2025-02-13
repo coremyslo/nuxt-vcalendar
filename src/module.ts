@@ -103,7 +103,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     if (moduleOptions.defaultCss) {
       nuxtOptions.css ||= []
-      nuxtOptions.css.push(`v-calendar/style.css`)
+      nuxtOptions.css.push(`@coremyslo/v-calendar/style.css`)
     }
 
     if (moduleOptions.cssPath) {
